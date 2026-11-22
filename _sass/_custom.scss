@@ -1,16 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Shrikhand&display=swap');
-.body {
-  font-family: "Dongle", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Shrikhand&display=swap");
+$font-family-sans-serif: "Lato", -apple-system, system-ui, BlinkMacSystemFont,
+ "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+
 .h1,h1{
   font-family: "Shrikhand", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.h2,.h3,.h4,.h5,.h6,h2,h3,h4,h5,h6 {
-  font-family: "Dongle", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
