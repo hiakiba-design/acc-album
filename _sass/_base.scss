@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    @if $base-font-family != "" { font-family: $base-font-family; }
+    @if $base-font-family = "Dongle" { font-family: "Dongle", sans-serif }
     @if $base-font-size != "" { font-size: $base-font-size; }
     @if $text-color != "" { color: $text-color; }
 }
